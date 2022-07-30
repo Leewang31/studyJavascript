@@ -33,10 +33,10 @@
 |14강|비교 연산자 (== 과 ===)|✅|
 |15강|=== 를 사용하자!|✅|
 |16강|부정과 부등호|✅|
-|17강|조건문이란? (if, else)||
-|18강|else, else if||
-|19강|조건문의 응용||
-|20강|boolean 의 대체제||
+|17강|조건문이란? (if, else)|✅|
+|18강|else, else if|✅|
+|19강|조건문의 응용|✅|
+|20강|boolean 의 대체제|✅|
 |21강|반복문 기본문법 - while||
 |22강|반복 조건||
 |23강|for 문||
@@ -74,7 +74,7 @@
 <td align = center>
   <img src="https://avatars.githubusercontent.com/Leewang31?v=4" width="300px;" alt=""/>
 <br>
-<img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/16" width="200px" /><br>
+<img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/20" width="200px" /><br>
 <a href="https://leewang31.tistory.com/">
 <p>🌞티스토리🌞</p>
 </a>
