@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script text="text/javascript">
+    var li = ['a', 'b', 'c', 'd'];
+    document.write("length : "+li.length+"<br>");
+    li.push('e')
+    document.write("push('e') : "+li+'<br>');
+    li.concat('f','g');
+    document.write("concat('f','g') : "+li+'<br>');
+    li.unshift('z');
+    document.write("unshift('z') : "+li+"<br>");
+    li.splice(2,2,"B","C");
+    document.write("splice(2,2,\"B\",\"C\") : "+li+"<br>");
+
+    var num = [1,2,3,4,5,6];
+    num.shift();
+    document.write("shift() : "+num+'<br>');
+    num.pop();
+    document.write("pop() : "+num+"<br>");
+
+    var li2 = ['b','d','c','a'];
+    li2.sort();
+    document.write("sort() : "+li2+'<br>');
+    li2.reverse();
+    document.write("reverse() : "+li2+'<br>');
+</script>
+</body>
+</html>
