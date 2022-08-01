@@ -26,7 +26,7 @@
 |7강|함수|✅|
 |8강|배열|✅|
 |9강|객체|✅|
-|10강|모듈||
+|10강|모듈|✅|
 |11강|UI와 API 그리고 문서 보는법||
 |12강|JavaScript와 정규표현식||
 |13강|유효법위||
@@ -53,7 +53,7 @@
 <td align = center>
   <img src="https://avatars.githubusercontent.com/Leewang31?v=4" width="300px;" alt=""/>
 <br>
-<img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/40" width="200px" /><br>
+<img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/44" width="200px" /><br>
 <a href="https://leewang31.tistory.com/">
 <p>🌞티스토리🌞</p>
 </a>

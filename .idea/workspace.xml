@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="2a799b84-c9d6-46b4-a937-5435979e6175" name="Changes" comment="" />
+=======
+    <list default="true" id="2a799b84-c9d6-46b4-a937-5435979e6175" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9. 객체/object_oriented_programming.html" beforeDir="false" afterPath="$PROJECT_DIR$/9. 객체/object_oriented_programming.html" afterDir="false" />
+    </list>
+>>>>>>> 875308d741ea1ad464e98a2c81dc40e745ade681
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -32,13 +40,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/5. 조건문" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Code\studyJavaScript\5. 조건문" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jquery-3.6.0.js" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,9 +51,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659104512000</updated>
+<<<<<<< HEAD
       <workItem from="1659104515131" duration="4194000" />
       <workItem from="1659173101000" duration="4850000" />
       <workItem from="1659236874652" duration="12866000" />
+=======
+      <workItem from="1659104515131" duration="4670000" />
+      <workItem from="1659315977190" duration="4917000" />
+      <workItem from="1659321142878" duration="376000" />
+>>>>>>> 875308d741ea1ad464e98a2c81dc40e745ade681
     </task>
     <servers />
   </component>

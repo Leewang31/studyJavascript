@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+</head>
+<body>
+<ul id="list1">
+    <li>empty</li>
+    <li>empty</li>
+    <li>empty</li>
+    <li>empty</li>
+</ul>
+<input type="button" value="execute" id="execute_btn"/>
+<script type="text/javascript">
+    $('#list1 li').text('hi');
+    $('#execute_btn').click(function () {
+        $('#list1 li').text('coding');
+    })
+</script>
+</body>
+</html>
