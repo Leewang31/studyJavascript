@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //var pattern = new RegExp('a');  //정규표현식 생성 객체 생성자
+    var pattern =/a/;   //정규표현식 생성 리터럴
+    document.write(pattern.test('abcd')+"<br>");
+    document.write(pattern.test('bcde')+"<br>");
+
+    document.write(pattern.exec('abcde'));
+</script>
+</body>
+</html>
