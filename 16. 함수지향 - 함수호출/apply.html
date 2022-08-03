@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script text="text/javascript">
+    function sum(arg1, arg2) {
+        return arg1 + arg2;
+    }
+
+    document.write(sum(1, 2) + "<br>");
+    document.write(sum.apply(null, [1, 2]));
+</script>
+<hr>
+<script text="text/javascript">
+    o1 = {val1: 1, val2: 2, val3: 3, sum: sum}
+    o2 = {v1: 10, v2: 50, v3: 100, v4: 25}
+
+    function sum() {
+        var _sum = 0;
+        for (name in this) {
+            if (typeof this[name] !== 'function') {
+            }
+            _sum += this[name];
+        }
+        return _sum;
+    }
+
+    document.write(sum.apply(o1) + "<br>"); // 6
+    document.write(sum.apply(o2) + "<br>") // 185
+    document.write(o2.sum());
+</script>
+</body>
+</html>

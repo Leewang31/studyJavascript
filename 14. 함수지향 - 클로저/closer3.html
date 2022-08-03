@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script text="text/javascript">
+    function factory_movie(title){
+        return {
+            get_title : function (){    // 이 메소드는 외부함수의 지역변수 title을 인자로 받는다
+                return title;           // 함수리턴값을 객체로 반환한다.
+            },
+            set_title : function(_title){   // 이 메소드는 외부함수의 지역변수 title을 인자로 받는다
+                title = _title
+            }
+        }
+    }
+    ghost = factory_movie('Ghost in the shell');
+    matrix = factory_movie('Matrix');
+
+    alert(ghost.get_title());   //Ghost in the shell
+    alert(matrix.get_title());  //Matrix
+
+    ghost.set_title('공각기동대');
+
+    alert(ghost.get_title());   //공각기동대 ->set_title와 get_title 함수가 title의 값을 공유하고 있다는 의미다.
+    alert(matrix.get_title());  //Matrix
+</script>
+</body>
+</html>

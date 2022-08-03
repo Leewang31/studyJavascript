@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script text="text/javascript">
+function outter(){
+    function inner(){
+        var title = 'Hello world';
+        document.write(title);
+    }
+    inner();
+}
+outter();
+</script>
+<hr>
+<script text="text/javascript">
+function outter2(){
+    var title = 'Hello world';
+    function inner2(){
+        document.write(title);
+    }
+    inner2()
+}
+outter2();
+</script>
+</body>
+</html>
