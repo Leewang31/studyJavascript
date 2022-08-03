@@ -30,10 +30,10 @@
 |11강|UI와 API 그리고 문서 보는법|✅|
 |12강|JavaScript와 정규표현식|✅|
 |13강|유효법위|✅|
-|14강|값으로서의 함수와 콜백||
-|15강|클로저||
-|16강|argument||
-|17강|함수의 호출||
+|14강|값으로서의 함수와 콜백|✅|
+|15강|클로저|✅|
+|16강|argument|✅|
+|17강|함수의 호출|✅|
 |18강|객체지향 프로그래밍 소개||
 |19강|생성자와 new||
 |20강|전역 객체||
@@ -53,7 +53,7 @@
 <td align = center>
   <img src="https://avatars.githubusercontent.com/Leewang31?v=4" width="300px;" alt=""/>
 <br>
-<img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/59" width="200px" /><br>
+<img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/72" width="200px" /><br>
 <a href="https://leewang31.tistory.com/">
 <p>🌞티스토리🌞</p>
 </a>
